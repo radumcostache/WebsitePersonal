@@ -1,0 +1,20 @@
+{
+  "title": "Basic C++ Quiz",
+  "questions": [
+    {
+      "question": "What is the main function in C++?",
+      "choices": ["start()", "main()", "execute()", "begin()"],
+      "correctAnswer": "main()"
+    },
+    {
+      "question": "Which header file is needed to input/output operations in C++?",
+      "choices": ["iostream", "iomanip", "fstream", "cmath"],
+      "correctAnswer": "iostream"
+    },
+    {
+      "question": "Which statement is used to terminate a loop in C++?",
+      "choices": ["break", "exit", "return", "continue"],
+      "correctAnswer": "break"
+    }
+  ]
+}

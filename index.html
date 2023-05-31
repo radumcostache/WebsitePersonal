@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="script.js"></script>
     <link href="//fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width" >
     <meta charset="UTF-8">
@@ -18,6 +19,7 @@
               <div class="dropdown-content">
                   <a href="#projects">Projects</a>
                   <a href="https://github.com/radumsk">GitHub</a>
+                  <a href="quiz.html">Quiz</a>
               </div>
           </li>
         <li><a href="#contact" class="square">Contact</a></li>
@@ -74,17 +76,29 @@
             </div>
             <div class="atitle">PROJECTS</div>
         </section>
-        <section id="contact">
+        <section>
+            <div id="contact">
             <h2 class="proftitle">CONTACT</h2>
-            <div id="cinfo">
-                <div id="sm">
-                    <a class="ac1" href="https://www.linkedin.com/in/radu-costache-012a78199/"><img src="img/linkedin-linked-in-svgrepo-com.svg" alt=""> </a>
-                    <a class="ac1" href="https://www.facebook.com/radu.costache.90/"><img src="img/facebook-svgrepo-com.svg" alt=""> </a>
-                    <a class="ac1" href="https://www.instagram.com/radu_msk/"><img src="img/instagram-round-svgrepo-com.svg" alt=""></a>
+                <div id="cinfo">
+                    <div id="sm">
+                        <a class="ac1" href="https://www.linkedin.com/in/radu-costache-012a78199/"><img src="img/linkedin-linked-in-svgrepo-com.svg" alt=""> </a>
+                        <a class="ac1" href="https://www.facebook.com/radu.costache.90/"><img src="img/facebook-svgrepo-com.svg" alt=""> </a>
+                        <a class="ac1" href="https://www.instagram.com/radu_msk/"><img src="img/instagram-round-svgrepo-com.svg" alt=""></a>
+                    </div>
+                    <a href="mailto:radu-mihai.costache@s.unibuc.ro" id="mail">radu-mihai.costache@s.unibuc.ro</a>
                 </div>
-                <a href="mailto:radu-mihai.costache@s.unibuc.ro" id="mail">radu-mihai.costache@s.unibuc.ro</a>
+
             </div>
+            <form>
+                <label>Name:</label><input type="text" name="nume" id="name"><br>
+                <label>Email:</label><input type="email" name="email" id = "email"><br>
+                <label>Phone:</label><input type="text" name="telefon" id="telefon"><br>
+                <label>Message:</label><textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea><br>
+
+                <button type="submit" id="submit">Submit</button>
+            </form>
         </section>
+
     </main>
 </body>
 </html>

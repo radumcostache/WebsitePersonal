@@ -1,0 +1,20 @@
+{
+  "title": "Directed Graphs Quiz",
+  "questions": [
+    {
+      "question": "What is a directed graph?",
+      "choices": ["A graph where each edge has a direction", "A graph with no cycles", "A graph with all vertices connected", "A graph with no self-loops"],
+      "correctAnswer": "A graph where each edge has a direction"
+    },
+    {
+      "question": "Which data structure is commonly used to represent a directed graph?",
+      "choices": ["Array", "Stack", "Queue", "Adjacency list"],
+      "correctAnswer": "Adjacency list"
+    },
+    {
+      "question": "What is the maximum number of edges in a directed graph with n vertices?",
+      "choices": ["n - 1", "n", "n * (n - 1)", "n * (n + 1)"],
+      "correctAnswer": "n * (n - 1)"
+    }
+  ]
+}

@@ -322,6 +322,14 @@ section {
     flex-direction: column;
 }
 
+label{
+    color: #F1E4E8;
+}
+input, textarea {
+    border: 3px solid #D3F9B5;
+
+}
+
 @media only screen and (max-width: 1000px) {
     .start{
         display: flex;
@@ -382,4 +390,5 @@ section {
         flex-direction: column;
         align-items: center;
     }
+
 }
